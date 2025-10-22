@@ -1,8 +1,13 @@
 {
   "name": "common-vue-mistakes-how-to-avoid-them",
-  "version": "0.0.0",
   "private": true,
   "type": "module",
+  "version": "0.1.0",
+  "author": "Marek Chodacki <mchwebapps@hotmail.com> (https://marekchodacki.pl)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marekchodacki/common-vue-mistakes-how-to-avoid-them.git"
+  },
   "engines": {
     "node": "^20.19.0 || >=22.12.0"
   },
