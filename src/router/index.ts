@@ -5,6 +5,11 @@ const router = createRouter({
   routes: [
     {
       path: '/',
+      name: 'home',
+      component: () => import('../views/HomePage.vue'),
+    },
+    {
+      path: '/key-on-v-for',
       name: 'key-on-v-for',
       component: () => import('../views/KeyOnVFor.vue'),
     },
